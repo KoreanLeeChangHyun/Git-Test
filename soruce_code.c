@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int test1(){
-
+int test1(int a, int b){
+  return a + b;
 }
 
 int test2(){
