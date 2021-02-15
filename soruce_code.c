@@ -12,6 +12,10 @@ int test2(){
   // ds
 }
 
+int test3() {
+  printf("conflict")
+}
+
 int main()
 {
   return 0;
