@@ -6,7 +6,9 @@ int test1(int a, int b){
 }
 
 int test2(){
-
+  // git test
+  printf("test2");
+  // ds
 }
 
 int main()
