@@ -14,7 +14,7 @@ Open your git bash, and enter the command below
  $ git config -- global user.email "YOUR_EMAIL" 
 </pre>
 
-Example:  
+#### Example:  
 YOUR_NICKNAME = TonyStark  
 YOUR_EMAIL    = <span>tony@gmail.com</span>  
 <pre>
@@ -28,12 +28,14 @@ TonyStark  (o)
 
 
 ## SSH setting
+### SSH 
 To access your remote git repository from your local repository, you need SSH key.  
 You can make an SSH key with the below command.  
 <pre>
 $ ssh-keygen
 </pre>
-Result:
+
+#### Result:
 <pre>
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/schacon/.ssh/id_rsa): "ENTER_NEW_SSH_DIR"
@@ -49,15 +51,4 @@ You can skip with enther
 If you ship, 
 
 
-\* [git-doc-ssh](<https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key>)
-
-
-2. ssh setting
-- $ ssh-keygen
-
-2. git init
-- Make local folder 
-<pre>
-</pre>
-
-git init
+\* Reference: [git-doc-ssh](<https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key>)
