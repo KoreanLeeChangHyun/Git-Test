@@ -1,12 +1,12 @@
 # Git initialization setting
 
 
-## git download
+## Git download
 You can download git from the website below  
 URL: <a href="https://google.com" target="_blank">go do download link</a>  
  
 
-## git config
+## Git config
 Before initialization git, You have to set the git config  
 Open your git bash, and enter the command below  
 <pre>
@@ -71,3 +71,18 @@ Notice: setting is 'profile setting' (not 'repository setting')
 you can go 'profile setting' menu with enter the top bar user icon   
 
 \* Reference: <https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key>
+
+
+## Git init
+First make folder and open git bash  
+<pre>
+$ cd 'YOUR_FOLDER_DIR"
+</pre>
+You can replace with the below means (recommend)  
+Open your folder -> mouse right click -> git bash here  
+
+You mush initialize your folder as the local repository.  
+<pre>
+$ git init
+</pre>
+
