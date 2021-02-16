@@ -36,9 +36,9 @@ $ ssh-keygen
 </pre>
 
 #### Result:
-you can pass with enther (If you skip, entered below)
-ENTER_NEW_SSH_DIR = /home/schacon/.ssh/id_rsa
-ENTHER_SSH_PW     = None
+you can pass with enther (If you skip, entered below)  
+ENTER_NEW_SSH_DIR = /home/schacon/.ssh/id_rsa  
+ENTHER_SSH_PW     = None  
 <pre>
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/schacon/.ssh/id_rsa): "ENTER_NEW_SSH_DIR"
