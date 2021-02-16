@@ -28,7 +28,7 @@ TonyStark  (o)
 
 
 ## SSH setting
-### SSH 
+### SSH private Key create
 To access your remote git repository from your local repository, you need SSH key.  
 You can make an SSH key with the below command.  
 <pre>
@@ -36,6 +36,9 @@ $ ssh-keygen
 </pre>
 
 #### Result:
+you can pass with enther (If you skip, entered below)
+ENTER_NEW_SSH_DIR = /home/schacon/.ssh/id_rsa
+ENTHER_SSH_PW     = None
 <pre>
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/schacon/.ssh/id_rsa): "ENTER_NEW_SSH_DIR"
@@ -47,8 +50,7 @@ Your public key has been saved in /home/schacon/.ssh/id_rsa.pub.
 The key fingerprint is:
 d0:82:24:8e:d7:f1:bb:9b:33:53:96:93:49:da:9b:e3 schacon@mylaptop.local
 </pre>
-You can skip with enther
-If you ship, 
+
 
 
 \* Reference: [git-doc-ssh](<https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key>)
