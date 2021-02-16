@@ -4,8 +4,7 @@
 ## git download
 <pre>
   You can download git from the website below
-  URL: 
-  [link](https://git-scm.com/downloads, "go to download site")
+  URL: <a herf="https://git-scm.com/downloads">go to download site</a>
 </pre>
 
 
