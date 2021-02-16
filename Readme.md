@@ -22,7 +22,6 @@ Example:
  $ git config -- global user.name TonyStark  
  $ git config -- global user.email tony@gmail.com
  $ git config -- global init.defaultBranch main
-
 </pre>
 
 Note: When wirte your nickname, there should be no space  
