@@ -14,7 +14,7 @@ Open your git bash, and enter the command below
  $ git config -- global user.email "YOUR_EMAIL" 
 </pre>
 
-Example:
+Example:  
 YOUR_NICKNAME = TonyStark  
 YOUR_EMAIL    = tony@gmail.com  
 <pre>
