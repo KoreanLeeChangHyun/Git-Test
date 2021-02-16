@@ -70,4 +70,4 @@ GitHube -> setting -> SSH and GPG keys -> new SSH key -> attach your key
 Notice: setting is 'profile setting' (not 'repository setting')  
 you can go 'profile setting' menu with enter the top bar user icon   
 
-\* Reference: [git-doc-ssh](<https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key>)
+\* Reference: <https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key>
