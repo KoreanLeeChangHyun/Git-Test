@@ -106,7 +106,7 @@ $ git init
   
 Example:
 <pre>
-  git remote add origin git@github.com:username/repositoryname.git
+  $ git remote add origin git@github.com:username/repositoryname.git
 </pre>
 
 Note: recommend 'REPOSITORY_NAME' is 'origin'
