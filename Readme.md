@@ -10,16 +10,16 @@ URL: <a href="https://google.com" target="_blank">go do download link</a>
 Before initialization git, You have to set the git config  
 Open your git bash, and enter the command below  
 <pre>
- $ git config -- global user.name "YOUR_NICKNAME"  
- $ git config -- global user.email "YOUR_EMAIL" 
+ $ git config -- global user.name 'YOUR_NICKNAME'  
+ $ git config -- global user.email 'YOUR_EMAIL' 
 </pre>
 
 Example:  
-YOUR_NICKNAME = TonyStark  
-YOUR_EMAIL    = <span>tony@gmail.com</span>  
+YOUR_NICKNAME = 'TonyStark'  
+YOUR_EMAIL    = 'tony@gmail.com'  
 <pre>
  $ git config -- global user.name TonyStark  
- $ git config -- global user.email <span>tony@gmail.com</span>  
+ $ git config -- global user.email tony@gmail.com 
 </pre>
 
 Notie: When wirte your nickname, there should be no space  
