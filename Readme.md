@@ -3,10 +3,7 @@
 
 ## git download
  You can download git from the website below <br>
- 
- URL: [Google](https://git-scm.com/downloads)
- <a  target="_blank" href="https://git-scm.com/downloads">go to download site</a>
- [link]
+ URL: [go to download site](https://git-scm.com/downloads){:target="_blank"}
 
 
 ## git config
