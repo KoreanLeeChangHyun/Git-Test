@@ -22,15 +22,20 @@ YOUR_EMAIL    = tony@gmail.com
  $ git config -- global user.email tony@gmail.com  
 </pre>
 
-Notie: When wirte your nickname, there should be no space
-Tony Stark (x)
-TonyStark  (o)
+Notie: When wirte your nickname, there should be no space  
+Tony Stark (x)  
+TonyStark  (o)  
 
 
 ## SSH setting
+Tto your remote git repository from your local repository,  you need SSH key. 
+You can make an SSH key with the below command.
 <pre>
- 
+$ ssh-keygen
 </pre>
+
+
+
 2. ssh setting
 - $ ssh-keygen
 
