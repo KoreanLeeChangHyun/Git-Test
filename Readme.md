@@ -10,11 +10,13 @@
 
 
 ## git config
-Before initialization git, You have to set the git config
+Before initialization git, You have to set the git config <br>
 Open your git bash, and enter the command below
 <pre>
+  <code>
   $ git config --global user.name "YOUR_NICKNAME"
   $ git config -- global user.email "YOUR_EMAIL"
+  </code>
 </pre>
 
 Example:
