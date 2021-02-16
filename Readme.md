@@ -16,7 +16,7 @@ Open your git bash, and enter the command below
 
 Example:  
 YOUR_NICKNAME = TonyStark  
-YOUR_EMAIL    = tony@gmail.com  
+YOUR_EMAIL    = <span>tony@gmail.com</span>  
 <pre>
  $ git config -- global user.name TonyStark  
  $ git config -- global user.email tony@gmail.com  
@@ -33,7 +33,7 @@ You can make an SSH key with the below command.
 <pre>
 $ ssh-keygen
 </pre>
-### Result:
+Result:
 <pre>
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/schacon/.ssh/id_rsa): "ENTER_NEW_SSH_DIR"
