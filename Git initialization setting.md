@@ -4,7 +4,7 @@
 ## git download
 <pre>
   You can download git from the website below
-  URL: <a href="https://git-scm.com/downloads" target="_blank">go to download site</a>
+  URL: <span> <a href="https://git-scm.com/downloads" target="_blank">go to download site</a> </span>
 </pre>
 
 ## git config
