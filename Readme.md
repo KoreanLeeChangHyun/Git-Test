@@ -15,8 +15,8 @@ Open your git bash, and enter the command below
 </pre>
 
 Example:  
-YOUR_NICKNAME = 'TonyStark'  
-YOUR_EMAIL    = 'tony@gmail.com'  
+YOUR_NICKNAME = TonyStark  
+YOUR_EMAIL    = tony<spane>@</span>gmail.com  
 <pre>
  $ git config -- global user.name TonyStark  
  $ git config -- global user.email tony@gmail.com 
