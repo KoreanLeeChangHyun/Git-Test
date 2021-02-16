@@ -4,9 +4,17 @@
 ## git download
 <pre>
   You can download git from the website below
-  URL: <span> <a href="https://git-scm.com/downloads" target="_blank">go to download site</a> </span>
+  URL: <a href="https://git-scm.com/downloads" target="_blank">go to download site</a>
+  [link]
 </pre>
 
+!!! note
+
+     This is a note.
+     asd
+     asd
+     
+asd asd asd
 ## git config
 <pre>
  Before initialization git, You have to set the git config
