@@ -51,7 +51,23 @@ you can pass with enther (If you skip, entered below)
 ENTER_NEW_SSH_DIR = /home/schacon/.ssh/id_rsa  
 ENTHER_SSH_PW     = None  
 
-###
+<pre>
+$ cat ~/.ssh/id_rsa.pub
+</pre>
 
+Result:
+Attach the key below to the GitHub SSH setup.
+<pre>
+ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAklOUpkDHrfHY17SbrmTIpNLTGK9Tjom/BWDSU
+GPl+nafzlHDTYW7hdI4yZ5ew18JH4JW9jbhUFrviQzM7xlELEVf4h9lFX5QVkbPppSwg0cda3
+Pbv7kOdJ/MTyBlWXFCR+HAo3FXRitBqxiX1nKhXpHAZsMciLq8V6RjsNAQwdsdMFvSlVK/7XA
+t3FaoJoAsncM1Q9x5+3V0Ww68/eIFmb1zuUFljQJKprrX88XypNDvjYNby6vw/Pb0rwert/En
+mZ+AW4OZPnTPI89ZPmVMLuayrD2cE86Z/il8b+gw3r3+1nKatmIkjn2so1d01QraTlMqVSsbx
+NrRFi9wrf+M7Q== schacon@mylaptop.local
+</pre>
+GitHube -> setting -> SSH and GPG keys -> new SSH key -> attach your key  
+
+Notice: setting is 'profile setting' (not 'repository setting')  
+you can go 'profile setting' menu with enter the top bar user icon   
 
 \* Reference: [git-doc-ssh](<https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key>)
