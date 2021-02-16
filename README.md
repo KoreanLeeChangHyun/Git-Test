@@ -10,6 +10,7 @@ This repository only used as git command testing
 
 2. git init
 - Make local folder 
-- 
+<pre>
+</pre>
 
 git init
