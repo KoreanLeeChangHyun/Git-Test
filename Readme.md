@@ -48,7 +48,7 @@ Your public key has been saved in /home/schacon/.ssh/id_rsa.pub.
 The key fingerprint is:
 d0:82:24:8e:d7:f1:bb:9b:33:53:96:93:49:da:9b:e3 schacon@mylaptop.local
 </pre>
-- you can pass with enther (If you skip, entered below)  
+- you can skip with enter (If you skip, entered below)  
   ENTER_NEW_SSH_DIR = /home/schacon/.ssh/id_rsa  
   ENTHER_SSH_PW     = None  
 
