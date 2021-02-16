@@ -11,7 +11,8 @@
   Open your git bash, and enter the command below  
 <pre>
  $ git config -- global user.name 'YOUR_NICKNAME'  
- $ git config -- global user.email 'YOUR_EMAIL' 
+ $ git config -- global user.email 'YOUR_EMAIL'
+ $ git config -- global init.defaultBranch main
 </pre>
 
 Example:  
@@ -19,7 +20,9 @@ Example:
   YOUR_EMAIL    = tony<spane>@</span>gmail.com  
 <pre>
  $ git config -- global user.name TonyStark  
- $ git config -- global user.email tony@gmail.com 
+ $ git config -- global user.email tony@gmail.com
+ $ git config -- global init.defaultBranch main
+
 </pre>
 
 Note: When wirte your nickname, there should be no space  
@@ -109,8 +112,12 @@ Example:
 
 Note: recommend 'REPOSITORY_NAME' is 'origin'
 
+- Last, you must download all file from remote repository to local repository
+<pre>
+  $ git pull origin main
+</pre>
+
 \* Reference: <https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key>
 
 
-## Git 
 
