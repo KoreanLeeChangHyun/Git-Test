@@ -2,20 +2,13 @@
 
 
 ## git download
-<pre>
+<div>
   You can download git from the website below
-  URL: <a href="https://git-scm.com/downloads" target="_blank">go to download site</a>
+  URL: <a href="https://git-scm.com/downloads">go to download site</a>
   [link]
-</pre>
+</div>
 
-!!! note
 
-     This is a note.
-     asd
-     asd
-   [link](https://git-scm.com/downloads, "test")
-     
-asd asd asd
 ## git config
 <pre>
  Before initialization git, You have to set the git config
