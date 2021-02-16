@@ -7,30 +7,30 @@
  
 
 ## Git Configuration
-Before initialization git, You have to set the git config  
-Open your git bash, and enter the command below  
+- Before initialization git, You have to set the git config  
+  Open your git bash, and enter the command below  
 <pre>
  $ git config -- global user.name 'YOUR_NICKNAME'  
  $ git config -- global user.email 'YOUR_EMAIL' 
 </pre>
 
 Example:  
-YOUR_NICKNAME = TonyStark  
-YOUR_EMAIL    = tony<spane>@</span>gmail.com  
+- YOUR_NICKNAME = TonyStark  
+  YOUR_EMAIL    = tony<spane>@</span>gmail.com  
 <pre>
  $ git config -- global user.name TonyStark  
  $ git config -- global user.email tony@gmail.com 
 </pre>
 
 Notie: When wirte your nickname, there should be no space  
-Tony Stark (x)  
-TonyStark  (o)  
+- Tony Stark (x)  
+  TonyStark  (o)  
 
 \* Reference: https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
 
 ## SSH setting
-To access your remote git repository from your local repository, you need SSH key.  
-You can make an SSH key with the below command.  
+- To access your remote git repository from your local repository, you need SSH key.  
+  You can make an SSH key with the below command.  
 
 <pre>
 $ ssh-keygen
@@ -48,16 +48,16 @@ Your public key has been saved in /home/schacon/.ssh/id_rsa.pub.
 The key fingerprint is:
 d0:82:24:8e:d7:f1:bb:9b:33:53:96:93:49:da:9b:e3 schacon@mylaptop.local
 </pre>
-you can pass with enther (If you skip, entered below)  
-ENTER_NEW_SSH_DIR = /home/schacon/.ssh/id_rsa  
-ENTHER_SSH_PW     = None  
+- you can pass with enther (If you skip, entered below)  
+  ENTER_NEW_SSH_DIR = /home/schacon/.ssh/id_rsa  
+  ENTHER_SSH_PW     = None  
 
 <pre>
 $ cat ~/.ssh/id_rsa.pub
 </pre>
 
 Result:  
-Attach the key below to the GitHub SSH setup.
+- Attach the key below to the GitHub SSH setup.
 <pre>
 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAklOUpkDHrfHY17SbrmTIpNLTGK9Tjom/BWDSU
 GPl+nafzlHDTYW7hdI4yZ5ew18JH4JW9jbhUFrviQzM7xlELEVf4h9lFX5QVkbPppSwg0cda3
@@ -66,23 +66,26 @@ t3FaoJoAsncM1Q9x5+3V0Ww68/eIFmb1zuUFljQJKprrX88XypNDvjYNby6vw/Pb0rwert/En
 mZ+AW4OZPnTPI89ZPmVMLuayrD2cE86Z/il8b+gw3r3+1nKatmIkjn2so1d01QraTlMqVSsbx
 NrRFi9wrf+M7Q== schacon@mylaptop.local
 </pre>
-GitHube -> setting -> SSH and GPG keys -> new SSH key -> attach your key  
+- GitHube -> setting -> SSH and GPG keys -> new SSH key -> attach your key  
 
 Notice: setting is 'profile setting' (not 'repository setting')  
-you can go 'profile setting' menu with enter the top bar user icon   
+- you can go 'profile setting' menu with enter the top bar user icon   
 
 \* Reference: <https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key>
 
 
 ## Git init
-First make folder and open git bash  
+Create folder: 
+- First make folder (this folder will become local repository)
+  and open git bash  
 <pre>
 $ cd 'YOUR_FOLDER_DIR"
 </pre>
-You can replace with the below means (recommend)  
-Open your folder -> mouse right click -> git bash here  
+- You can replace with the below means (recommend)  
+  Open your folder -> mouse right click -> git bash here  
 
-You mush initialize your folder as the local repository.  
+Initialize local repository:
+- You mush initialize your folder as the local repository.  
 <pre>
 $ git init
 </pre>
@@ -91,11 +94,21 @@ $ git init
 
 
 ## Git remote
-After initialize your local repository, you must connect your remote repository.  
+- After initialize your local repository, you must connect your remote repository.  
 
 Connect new remote repository:
-Githube -> your repositories -> new -> enter repository configuration -> create repository
+- Githube -> your repositories -> new -> enter repository configuration -> create repository
+  copy the 'SSH_URL' and attach
+<pre>
+  $ git remote add 'REPOSITORY_NAME SSH' 'SSH_URL'
+</pre>
+  
+Example:
+<pre>
+  git remote add origin git@github.com:username/repositoryname.git
+</pre>
 
+Notice: recommend 'REPOSITORY_NAME SSH' is 'origin'
 
 
 Connect existing remote repository
