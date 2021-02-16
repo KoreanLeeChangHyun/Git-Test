@@ -7,7 +7,7 @@
  
 
 ## Git Configuration
-- Before initialization git, You have to set the git config  
+- Before initialization git, You have to set the git configuration  
   Open your git bash, and enter the command below  
 <pre>
  $ git config -- global user.name 'YOUR_NICKNAME'  
