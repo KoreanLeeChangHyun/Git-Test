@@ -55,7 +55,7 @@ ENTHER_SSH_PW     = None
 $ cat ~/.ssh/id_rsa.pub
 </pre>
 
-Result:
+Result:  
 Attach the key below to the GitHub SSH setup.
 <pre>
 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAklOUpkDHrfHY17SbrmTIpNLTGK9Tjom/BWDSU
