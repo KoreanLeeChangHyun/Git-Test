@@ -14,7 +14,7 @@ Open your git bash, and enter the command below
  $ git config -- global user.email "YOUR_EMAIL" 
 </pre>
 
-### Example:
+Example:
 YOUR_NICKNAME = TonyStark  
 YOUR_EMAIL    = tony@gmail.com  
 <pre>
@@ -22,7 +22,7 @@ YOUR_EMAIL    = tony@gmail.com
  $ git config -- global user.email tony@gmail.com  
 </pre>
 
-### Notie: When wirte your nickname, there should be no space  
+Notie: When wirte your nickname, there should be no space  
 Tony Stark (x)  
 TonyStark  (o)  
 
