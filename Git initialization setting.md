@@ -3,7 +3,7 @@
 ## git download
 <pre>
   
-  <a src="https://git-scm.com/downloads">hellow</a>
+  <a href="https://git-scm.com/downloads">go to download site</a>
 </pre>
 
 ## git config
