@@ -2,11 +2,11 @@
 
 
 ## Git download
-You can download git from the website below  
-URL: <a href="https://google.com" target="_blank">go do download link</a>  
+- You can download git from the website below  
+  URL: <a href="https://google.com" target="_blank">go to download link</a>  
  
 
-## Git config
+## Git Configuration
 Before initialization git, You have to set the git config  
 Open your git bash, and enter the command below  
 <pre>
@@ -26,6 +26,7 @@ Notie: When wirte your nickname, there should be no space
 Tony Stark (x)  
 TonyStark  (o)  
 
+\* Reference: https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
 
 ## SSH setting
 To access your remote git repository from your local repository, you need SSH key.  
@@ -86,3 +87,17 @@ You mush initialize your folder as the local repository.
 $ git init
 </pre>
 
+\* Reference: https://git-scm.com/docs/git-init
+
+
+## Git remote
+After initialize your local repository, you must connect your remote repository.  
+
+Connect new remote repository:
+Githube -> your repositories -> new -> enter repository configuration -> create repository
+
+
+
+Connect existing remote repository
+
+\* Reference: <https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key>
