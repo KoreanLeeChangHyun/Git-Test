@@ -5,7 +5,7 @@
 <pre>
   You can download git from the website below
   URL: 
-  [link](https://git-scm.com/downloads, "go to download site"){:target="_blank"}
+  [link](https://git-scm.com/downloads, "go to download site")
 </pre>
 
 
