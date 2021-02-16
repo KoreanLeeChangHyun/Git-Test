@@ -2,10 +2,12 @@
 
 
 ## git download
+```html
 <pre>
   You can download git from the website below
-  URL: <a href="https://git-scm.com/downloads">go to download site</a>
+  URL: <a href="https://git-scm.com/downloads" target="_blank">go to download site</a>
 </pre>
+```
 
 ## git config
 <pre>
