@@ -19,7 +19,7 @@ YOUR_NICKNAME = TonyStark
 YOUR_EMAIL    = <span>tony@gmail.com</span>  
 <pre>
  $ git config -- global user.name TonyStark  
- $ git config -- global user.email tony@gmail.com  
+ $ git config -- global user.email <span>tony@gmail.com</span>  
 </pre>
 
 Notie: When wirte your nickname, there should be no space  
