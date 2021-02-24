@@ -18,3 +18,8 @@ Delete remote branch:
 <pre>
   git push origin --delete <branch_name>
 </pre>
+
+Git log to text file
+<pre>
+  git --no-pager log > log.txt
+</pre>
